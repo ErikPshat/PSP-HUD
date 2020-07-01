@@ -17,12 +17,12 @@
 	IMPORT_FUNC	 "sceCtrl_driver",0x60B81F86,sceCtrl_driver_ReadBufferNegative
 //	IMPORT_FUNC	 "sceCtrl_driver",0xB1D0E5CD,sceCtrl_driver_PeekLatch
 //	IMPORT_FUNC	 "sceCtrl_driver",0x0B588501,sceCtrl_driver_ReadLatch
-//	IMPORT_FUNC	 "sceCtrl_driver",0xA88E8D22,sceCtrl_driver_A88E8D22
-//	IMPORT_FUNC	 "sceCtrl_driver",0xB7CEAED4,sceCtrl_driver_B7CEAED4
-//	IMPORT_FUNC	 "sceCtrl_driver",0x348D99D4,sceCtrl_driver_348D99D4
-//	IMPORT_FUNC	 "sceCtrl_driver",0xAF5960F3,sceCtrl_driver_AF5960F3
-//	IMPORT_FUNC	 "sceCtrl_driver",0xA68FD260,sceCtrl_driver_A68FD260
-//	IMPORT_FUNC	 "sceCtrl_driver",0x6841BE1A,sceCtrl_driver_6841BE1A
-	IMPORT_FUNC	 "sceCtrl_driver",0x7CA723DC,sceCtrl_driver_7CA723DC
-//	IMPORT_FUNC	 "sceCtrl_driver",0x5E77BC8A,sceCtrl_driver_5E77BC8A
+//	IMPORT_FUNC	 "sceCtrl_driver",0xA88E8D22,sceCtrl_driver_SetIdleCancelKey
+//	IMPORT_FUNC	 "sceCtrl_driver",0xB7CEAED4,sceCtrl_driver_GetIdleCancelKey
+//	IMPORT_FUNC	 "sceCtrl_driver",0x348D99D4,sceCtrl_driver_SetSuspendingExtraSamples
+//	IMPORT_FUNC	 "sceCtrl_driver",0xAF5960F3,sceCtrl_driver_GetSuspendingExtraSamples
+//	IMPORT_FUNC	 "sceCtrl_driver",0xA68FD260,sceCtrl_driver_ClearRapidFire
+//	IMPORT_FUNC	 "sceCtrl_driver",0x6841BE1A,sceCtrl_driver_SetRapidFire
+	IMPORT_FUNC	 "sceCtrl_driver",0x7CA723DC,sceCtrl_driver_SetButtonIntercept
+//	IMPORT_FUNC	 "sceCtrl_driver",0x5E77BC8A,sceCtrl_driver_GetButtonIntercept
 //	IMPORT_FUNC	 "sceCtrl_driver",0x5C56C779,sceCtrl_driver_5C56C779
