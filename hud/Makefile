@@ -1,5 +1,5 @@
 TARGET = hud
-OBJS = main.o apihook.o buttons.o config.o draw.o lang.o screenshot.o exports.o sceCtrl_driver.o sceDisplay_driver.o scePower_driver.o sceRtc_driver.o
+OBJS = main.o apihook.o buttons.o config.o draw.o lang.o screenshot.o exports.o sceCtrl_driver.o sceDisplay_driver.o scePower_driver.o sceRtc_driver.o sceUsb_driver.o
 
 BUILD_PRX=1
 USE_KERNEL_LIBC=1
